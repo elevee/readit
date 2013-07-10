@@ -7,11 +7,14 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 
+# Formatting
+gem 'haml'
+
 # User authentication
 gem 'devise'
 
-# Formatting
-gem 'haml'
+# Pagination
+gem 'will_paginate', '~> 3.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
