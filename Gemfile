@@ -16,6 +16,9 @@ gem 'devise'
 # Pagination
 gem 'will_paginate', '~> 3.0'
 
+# Debugging
+gem 'better_errors'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
