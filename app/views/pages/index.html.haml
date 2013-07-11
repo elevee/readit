@@ -4,7 +4,8 @@
 
 %ul 
 - @links.each do |link|
-	%li= link_to link.title, link.url
-
+	%li= link_to link.title, link.url 
+	= link_to "comments", link
+%br
 = will_paginate @links
 
